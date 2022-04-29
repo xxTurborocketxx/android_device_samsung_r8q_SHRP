@@ -45,7 +45,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 		export OF_USE_MAGISKBOOT=1
 		export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
 		export OF_FLASHLIGHT_ENABLE=1
-		export OF_FL_PATH1="/system/bin/flashlight"
+		export OF_FL_PATH1="/system/flashlight"
 		export OF_FL_PATH2=""
 		export FOX_VERSION="R11.1_1"
 		export OF_SCREEN_H="2400"
