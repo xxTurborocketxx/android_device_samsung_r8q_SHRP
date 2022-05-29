@@ -140,3 +140,15 @@ TW_USE_TOOLBOX := true
 TARGET_USES_MKE2FS := true
 TW_NO_LEGACY_PROPS := true
 TW_NO_BIND_SYSTEM := true
+
+# SHRP Add-ons
+SHRP_DEVICE_CODE := r8q
+SHRP_MAINTAINER := TurboRCT & Johx22
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_REC_TYPE := Normal
+SHRP_DEVICE_TYPE := A/B
+SHRP_FLASH := 0
+SHRP_INTERNAL := /sdcard
+SHRP_EXTERNAL := /external_sd
+SHRP_OTG := /usb-otg
+SHRP_NOTCH := true
