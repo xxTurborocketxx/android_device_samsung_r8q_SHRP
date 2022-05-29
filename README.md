@@ -1,4 +1,4 @@
-## OrangeFox Recovery Device Tree for the Samsung Galaxy S20 FE 5G (Snapdragon)
+## SHRP Device Tree for the Samsung Galaxy S20 FE 5G (Snapdragon)
 
 ## How-to compile it:
 
