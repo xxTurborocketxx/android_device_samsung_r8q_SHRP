@@ -140,6 +140,8 @@ TW_USE_TOOLBOX := true
 TARGET_USES_MKE2FS := true
 TW_NO_LEGACY_PROPS := true
 TW_NO_BIND_SYSTEM := true
+TW_INCLUDE_FUSE_EXFAT := true
+TW_INCLUDE_FUSE_NTFS := true
 
 # SHRP Add-ons
 SHRP_AB := true
