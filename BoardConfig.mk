@@ -142,6 +142,7 @@ TW_NO_LEGACY_PROPS := true
 TW_NO_BIND_SYSTEM := true
 
 # SHRP Add-ons
+SHRP_AB := true
 SHRP_DEVICE_CODE := r8q
 SHRP_MAINTAINER := TurboRCT & Johx22
 SHRP_REC := /dev/block/bootdevice/by-name/recovery
