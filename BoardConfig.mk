@@ -154,3 +154,4 @@ SHRP_INTERNAL := /sdcard
 SHRP_EXTERNAL := /external_sd
 SHRP_OTG := /usb-otg
 SHRP_NOTCH := true
+SHRP_DARK := true
