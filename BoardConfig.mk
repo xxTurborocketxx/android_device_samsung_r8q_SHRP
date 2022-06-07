@@ -146,7 +146,7 @@ TW_INCLUDE_FUSE_NTFS := true
 # SHRP Add-ons
 SHRP_AB := true
 SHRP_DEVICE_CODE := r8q
-SHRP_MAINTAINER := TurboRCT & Johx22
+SHRP_MAINTAINER := TurboRCT--Johx22
 SHRP_REC := /dev/block/bootdevice/by-name/recovery
 SHRP_REC_TYPE := Normal
 SHRP_DEVICE_TYPE := A/B
