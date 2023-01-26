@@ -37,10 +37,10 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a75
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a75
 
-TARGET_USES_64_BIT_BINDER := true
-
 ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
+
+TARGET_SUPPORTS_64_BIT_APPS := false
 
 ALLOW_MISSING_DEPENDENCIES := true
 
@@ -131,9 +131,14 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_MAX_BRIGHTNESS := 486
 TW_DEFAULT_BRIGHTNESS := 255
+<<<<<<< Updated upstream
 TW_Y_OFFSET := 100
 TW_H_OFFSET := -100
 TW_NO_REBOOT_BOOTLOADER := true
+=======
+TW_NO_REBOOT_BOOTLOADER := false
+TW_HAS_EDL_MODE := true
+>>>>>>> Stashed changes
 TW_HAS_DOWNLOAD_MODE := true
 TW_INCLUDE_NTFS_3G := true
 TW_USE_NEW_MINADBD := true
@@ -143,4 +148,9 @@ TW_USE_TOOLBOX := true
 TARGET_USES_MKE2FS := true
 TW_NO_LEGACY_PROPS := true
 TW_NO_BIND_SYSTEM := true
+<<<<<<< Updated upstream
 TW_NO_SCREEN_TIMEOUT := true
+=======
+TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
+>>>>>>> Stashed changes
